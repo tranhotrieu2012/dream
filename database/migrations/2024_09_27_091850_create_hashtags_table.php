@@ -13,7 +13,7 @@ return new class extends Migration {
         Schema::create('hashtags', function (Blueprint $table) {
             $table->id();
             $table->string('tag')->nullable();
-            $table->foreignId('post-id')->constrained()->onDelete('cascade');
+            $table->foreignId('post-id')->constrained('posts')->onDelete('cascade');
 
         });
     }
