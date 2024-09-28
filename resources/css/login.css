@@ -1,0 +1,22 @@
+.we-login-register {
+    display: flex ;
+    flex-direction: column;
+   
+
+}
+.we-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.we-form button{
+    width: 40%;
+    transition: .3s ease;
+}
+button:hover {
+    background-color: #eceaea;
+    color: white;
+    transition: .3s ease;
+}
